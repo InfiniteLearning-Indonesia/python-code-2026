@@ -78,7 +78,7 @@ print("Elemen dari indeks 2 hingga akhir:", arr[2:])
     
 """
 
-import numpy as np
+import numpy as np # Mengimpor / Memanggil library numpy
 arr = np.array([1, 2, 5])
 print("Array:", arr)
 print("Tipe Data:", arr.dtype)
@@ -173,7 +173,7 @@ print("Index elemen 30:", result[0])
 
 import numpy as np
 arr = np.array([30, 10, 50, 20, 40])
-sorted_arr = np.sort(arr)
+sorted_arr = np.sort(arr) # Fungsi untuk sort yang sudah disediakan oleh Numpy
 print("Sorted Array:", sorted_arr)
 
 """## NumPy Array Filter
